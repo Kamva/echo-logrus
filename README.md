@@ -1,4 +1,4 @@
-### echo-logrus
+### elogrus
 
 Middleware elogrus is a [logrus](https://github.com/sirupsen/logrus) logger support for [echo](https://github.com/labstack/echo).
 
