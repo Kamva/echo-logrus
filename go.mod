@@ -1,4 +1,4 @@
-module github.com/Kamva/echo-logrus
+module github.com/Kamva/elogrus
 
 go 1.13
 
