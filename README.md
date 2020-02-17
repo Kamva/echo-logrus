@@ -15,14 +15,13 @@ go get -u github.com/Kamva/elogrus/v4
 import package
 
 ```go
-"github.com/Kamva/elogrus/v4"
+import "github.com/Kamva/elogrus/v4"
 ```
 
 define new logrus
 
 ```go
-elogrus.Logger = logrus.New()
-e.Logger = elogrus.GetEchoLogger()
+e.Logger = elogrus.GetEchoLogger(logrus.New())
 e.Use(elogrus.Hook())
 ```
 

@@ -10,13 +10,11 @@ import (
 	"github.com/sirupsen/logrus"
 )
 
-// Logrus : implement Logger
+// Logrus implement Logger
 type Logrus struct {
 	*logrus.Logger
 }
 
-// Logger ...
-//var Logger *logrus.Logger
 
 // GetEchoLogger for e.Logger
 func GetEchoLogger(Logger *logrus.Logger) Logrus {
