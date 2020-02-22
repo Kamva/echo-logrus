@@ -12,12 +12,11 @@ import (
 
 // Logrus implement Logger
 type Logrus struct {
-	*logrus.Logger
+	*logrus.Entry
 }
 
-
 // GetEchoLogger for e.Logger
-func GetEchoLogger(Logger *logrus.Logger) Logrus {
+func GetEchoLogger(Logger *logrus.Entry) Logrus {
 	return Logrus{Logger}
 }
 
@@ -69,7 +68,7 @@ func (l Logrus) SetLevel(lvl log.Lvl) {
 
 // Output logger output func
 func (l Logrus) Output() io.Writer {
-	return l.Out
+	return l.Logger.Out
 }
 
 // SetOutput change output, default os.Stdout
