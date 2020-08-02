@@ -1,4 +1,4 @@
-module github.com/Kamva/elogrus/v4
+module github.com/kamva/elogrus/v4
 
 go 1.13
 

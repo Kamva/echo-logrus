@@ -7,7 +7,7 @@ Middleware elogrus is a [logrus](https://github.com/sirupsen/logrus) logger supp
 #### Install
 
 ```sh
-go get -u github.com/Kamva/elogrus/v4
+go get -u github.com/kamva/elogrus/v4
 ```
 
 #### Usage
@@ -15,7 +15,7 @@ go get -u github.com/Kamva/elogrus/v4
 import package
 
 ```go
-import "github.com/Kamva/elogrus/v4"
+import "github.com/kamva/elogrus/v4"
 ```
 
 define new logrus
