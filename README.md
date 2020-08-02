@@ -1,3 +1,4 @@
+## Deprecated. we are using hexa to echo logger converter in [hexa-echo](https://github.com/Kamva/hexa-echo) package.
 ### elogrus
 
 Middleware elogrus is a [logrus](https://github.com/sirupsen/logrus) logger support for [echo](https://github.com/labstack/echo).
